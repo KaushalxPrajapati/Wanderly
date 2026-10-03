@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wanderly - Show</title>
+    </head>
+    <body>
+        <h3>Listing Details:</h3>
+        <ul>
+            <li><%= listing.title %></li>
+            <li><%= listing.description %></li>
+            <img src="<%= listing.image.url %>" alt="User Profile" style="height: 200px" />
+            <li>&#8377; <%= listing.price.toLocaleString('en-IN') %></li>
+            <li><%= listing.location %></li>
+            <li><%= listing.country %></li>
+        </ul>
+
+        <br />
+
+        <div style="display: flex">
+            <form action="/listings">
+                <button>Back</button>
+            </form>
+
+            <form action="/listings/<%= listing._id %>/edit" method="get">
+                <button>Edit listing</button>
+            </form>
+
+            <form action="/listings/<%= listing._id %>?_method=DELETE" method="POST">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </body>
+</html>

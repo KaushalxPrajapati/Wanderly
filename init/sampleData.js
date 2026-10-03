@@ -1,8 +1,7 @@
 const sampleListings = [
     {
         title: 'Cozy Beachfront Cottage',
-        description:
-            'Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.',
+        description: 'Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -24,8 +23,7 @@ const sampleListings = [
     },
     {
         title: 'Mountain Retreat',
-        description:
-            "Unplug and unwind in this peaceful mountain cabin. Surrounded by nature, it's a perfect place to recharge.",
+        description: "Unplug and unwind in this peaceful mountain cabin. Surrounded by nature, it's a perfect place to recharge.",
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
@@ -36,8 +34,7 @@ const sampleListings = [
     },
     {
         title: 'Historic Villa in Tuscany',
-        description:
-            'Experience the charm of Tuscany in this beautifully restored villa. Explore the rolling hills and vineyards.',
+        description: 'Experience the charm of Tuscany in this beautifully restored villa. Explore the rolling hills and vineyards.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
@@ -59,8 +56,7 @@ const sampleListings = [
     },
     {
         title: 'Beachfront Paradise',
-        description:
-            'Step out of your door onto the sandy beach. This beachfront condo offers the ultimate relaxation.',
+        description: 'Step out of your door onto the sandy beach. This beachfront condo offers the ultimate relaxation.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -71,8 +67,7 @@ const sampleListings = [
     },
     {
         title: 'Rustic Cabin by the Lake',
-        description:
-            'Spend your days fishing and kayaking on the serene lake. This cozy cabin is perfect for outdoor enthusiasts.',
+        description: 'Spend your days fishing and kayaking on the serene lake. This cozy cabin is perfect for outdoor enthusiasts.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
@@ -105,8 +100,7 @@ const sampleListings = [
     },
     {
         title: 'Safari Lodge in the Serengeti',
-        description:
-            'Experience the thrill of the wild in a comfortable safari lodge. Witness the Great Migration up close.',
+        description: 'Experience the thrill of the wild in a comfortable safari lodge. Witness the Great Migration up close.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG1vdW50YWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
@@ -117,8 +111,7 @@ const sampleListings = [
     },
     {
         title: 'Historic Canal House',
-        description:
-            "Stay in a piece of history in this beautifully preserved canal house in Amsterdam's iconic district.",
+        description: "Stay in a piece of history in this beautifully preserved canal house in Amsterdam's iconic district.",
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -206,8 +199,7 @@ const sampleListings = [
     },
     {
         title: 'Historic Castle in Scotland',
-        description:
-            'Live like royalty in this historic castle in the Scottish Highlands. Explore the rugged beauty of the area.',
+        description: 'Live like royalty in this historic castle in the Scottish Highlands. Explore the rugged beauty of the area.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1585543805890-6051f7829f98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYWNoJTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
@@ -218,8 +210,7 @@ const sampleListings = [
     },
     {
         title: 'Desert Oasis in Dubai',
-        description:
-            'Experience luxury in the middle of the desert in this opulent oasis in Dubai with a private pool.',
+        description: 'Experience luxury in the middle of the desert in this opulent oasis in Dubai with a private pool.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
@@ -241,8 +232,7 @@ const sampleListings = [
     },
     {
         title: 'Beachfront Villa in Greece',
-        description:
-            'Enjoy the crystal-clear waters of the Mediterranean in this beautiful beachfront villa on a Greek island.',
+        description: 'Enjoy the crystal-clear waters of the Mediterranean in this beautiful beachfront villa on a Greek island.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
@@ -253,8 +243,7 @@ const sampleListings = [
     },
     {
         title: 'Eco-Friendly Treehouse Retreat',
-        description:
-            "Stay in an eco-friendly treehouse nestled in the forest. It's the perfect escape for nature lovers.",
+        description: "Stay in an eco-friendly treehouse nestled in the forest. It's the perfect escape for nature lovers.",
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2t5JTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
@@ -265,8 +254,7 @@ const sampleListings = [
     },
     {
         title: 'Historic Cottage in Charleston',
-        description:
-            'Experience the charm of historic Charleston in this beautifully restored cottage with a private garden.',
+        description: 'Experience the charm of historic Charleston in this beautifully restored cottage with a private garden.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
@@ -299,8 +287,7 @@ const sampleListings = [
     },
     {
         title: 'Luxury Villa in the Maldives',
-        description:
-            'Indulge in luxury in this overwater villa in the Maldives with stunning views of the Indian Ocean.',
+        description: 'Indulge in luxury in this overwater villa in the Maldives with stunning views of the Indian Ocean.',
         image: {
             filename: 'listingimage',
             url: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -333,4 +320,4 @@ const sampleListings = [
     },
 ];
 
-module.exports = { data: sampleListings };
+module.exports = sampleListings;

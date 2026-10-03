@@ -7,7 +7,7 @@ const Listing = require('../models/listing.js');
 const MONGO_URL = 'mongodb://127.0.0.1:27017/wanderly';
 async function initDB() {
     await Listing.deleteMany({});
-    await Listing.insertMany(sampleData.data);
+    await Listing.insertMany(sampleData);
 }
 
 async function main() {

@@ -7,15 +7,15 @@
     </head>
 
     <body>
-        <h1>All Listings</h1>
+        <form action="/listings/new" method="GET">
+            <button>Create a new Listing</button>
+        </form>
 
+        <h1>All Listings</h1>
         <ul>
             <% for (let listing of allListings) { %>
                 <li>
-                    <h2><%= listing.title %></h2>
-                    <p><%= listing.description %></p>
-                    <p>₹<%= listing.price %></p>
-                    <p><%= listing.location %>, <%= listing.country %></p>
+                    <a href="/listings/<%=listing._id%>"><h2><%= listing.title %></h2></a>
                 </li>
             <% } %>
         </ul>
