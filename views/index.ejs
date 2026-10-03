@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wanderly - Listings</title>
+    </head>
+
+    <body>
+        <h1>All Listings</h1>
+
+        <ul>
+            <% for (let listing of allListings) { %>
+                <li>
+                    <h2><%= listing.title %></h2>
+                    <p><%= listing.description %></p>
+                    <p>₹<%= listing.price %></p>
+                    <p><%= listing.location %>, <%= listing.country %></p>
+                </li>
+            <% } %>
+        </ul>
+    </body>
+</html>
